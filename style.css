@@ -1,0 +1,89 @@
+
+/* 
+different ways navbar create start */
+.flex-container{
+    background-color: black;
+    display: flex;
+    height: 50px;
+    margin-bottom: 40px;
+ 
+
+}
+.flex-container ul{
+
+}
+.flex-container ul li{ 
+display: inline-block;
+padding: 20px;
+
+}
+.flex-container ul li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    position: relative;
+    left: 397px;
+    bottom: 22px;
+
+}
+
+.flex-container ul li a:hover{
+    background-color: red;
+    cursor: pointer;
+
+}
+
+.container{
+    background-color: aqua;
+    display: flex;
+    color: white;
+   flex-flow: wrap row;
+   justify-content: center ;
+   margin-bottom: 370px;
+}
+
+.container > div{
+ width: 40px;
+ height: 40px;
+ margin: 20px;
+ padding: 15px;
+}
+
+.container > div{
+    background-color: black;
+}
+
+/* 
+different ways navbar create end */
+/* section start */
+section{
+    /* height: 100vh; */
+}
+ /* section end */
+/* 
+using flex create a footer */
+
+.footer-flex{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.footer-flex ul {}
+.footer-flex ul li {
+    display: inline-block;
+}
+.footer-flex ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.footer-flex ul li a:hover {
+    background-color: red;
+
+.card{
+    width: 300px;
+    margin: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 3px black;
+}
+
